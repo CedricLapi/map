@@ -11,10 +11,11 @@ function App() {
 
   return (
     <>
-    < Iteration />
+    < Iteration /> 
     <Groceries />
     < Header firstName={"Cedric"} lastName={"Lapi"} age={30} haircolor={"black"} />
     < Header firstName={"Karl"} lastName={"Moutome"} />
+    <button onclick={ () => alert("This button has been clicked!")}>Click Me</button>
     </>
   )
 }
